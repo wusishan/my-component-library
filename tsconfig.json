@@ -108,6 +108,7 @@
   },
   "exclude" : [
     "**/tests",
-    "**/*.test.tsx"
+    "**/*.test.tsx",
+    "src/stories"
   ]
 }
