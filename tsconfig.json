@@ -104,6 +104,10 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-  }
+    "emitDeclarationOnly": true
+  },
+  "exclude" : [
+    "**/tests",
+    "**/*.test.tsx"
+  ]
 }
